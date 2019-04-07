@@ -1,0 +1,11 @@
+zuul.routes.api-1.path=/8091/**
+zuul.routes.api-1.serviceId=spring-cloud-server
+
+zuul.routes.api-2.path=/baidu
+zuul.routes.api-2.url=http://www.baidu.com
+
+zuul.routes.api-3.path=/8092/**
+zuul.routes.api-3.serviceId=spring-cloud-ribbon
+
+zuul.routes.api-4.path=/8093/**
+zuul.routes.api-4.serviceId=spring-cloud-feign
